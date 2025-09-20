@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #111827;
+  color: white;
+}
+
+/* ビデオを鏡像表示（自分の映像を見慣れた形に） */
+video {
+  transform: scaleX(-1);
+}
